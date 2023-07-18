@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&family=Open+Sans:wght@400;700;800&family=Poppins:wght@100;200;300;400;500;600;700;800;900&family=Work+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,900&display=swap');
+
+* {
+    font-family: 'Work Sans', sans-serif;
+}
+
+/* Shared styles are here  */
+
+
+.logo {
+    width: 70px;
+    height: 30px;
+}
+
+.logo-container .g {
+    background: linear-gradient(90deg, #FF42A5 0%, #FF42A5 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+
+}
+
+/* Navigation bar starts here  */
+header {
+    margin: 20px auto;
+}
+nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+.logo-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 15px;
+    font-size: 30px;
+}
+
+.nav-container {
+    display: flex;
+    flex-direction: row;
+    gap: 25px;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.nav-container h4 {
+    color: #3C354F;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 500;
+}
+.nav-container button {
+    width: 250px;
+    height: 55px;
+    border: none;
+    border-radius: 8px;
+    padding: 15px 20px 15px 20px;
+    color: #3C354F;
+    text-align: center;
+    font-weight: 500;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}

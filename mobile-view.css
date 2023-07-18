@@ -1,0 +1,8 @@
+@media screen and (max-width: 475px){
+    nav, .nav-container {
+        flex-direction: column;
+    }
+    .logo-container {
+        flex-direction: row;
+    }
+}
