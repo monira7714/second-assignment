@@ -4,10 +4,41 @@
         align-self: center;
     }
     .goat-container{
-        margin: 50px 0px;
-        gap: 70px;
+        margin: 50px 50px;
+        justify-content: space-between
+        gap: 80px;
     }
     .goat-pic {
         width: 300px;
+        padding-right: 50px;
     }
+    .online-games{
+        margin: 30px 100px;
+    }
+    .online-container{
+        margin: 10px 20px 10px 50px;
+    }
+    .online-card-container{
+        grid-template-columns: repeat(2, 1fr);
+        gap: 50px;
+        margin-left: 150px;
+    }
+
+    .play-instantly{ 
+        justify-content: space-between;
+        gap: 10px;
+        margin: 100px 20px 70px 30px;
+    }
+    .relative{
+            width: 320px; 
+            height: 380px;
+        }
+    .absolute {
+        width: 140px;
+        height: 210px;
+    }
+    footer{
+        /* margin-top: 700px;
+        margin-left: 0px; */
+        width: 900px;
 }

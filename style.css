@@ -87,7 +87,7 @@ nav {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    
+
 }
 
 .goat-info-container {
@@ -173,6 +173,64 @@ nav {
     height: 480px;
     margin-right: 140px;
     margin-top: 15px;
+}
+
+/* online games section starts from here  */
+.online-games {
+    margin: 50px 150px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+.online-title {
+    font-size: 30px;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+
+.online-title>span {
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.online-des {
+    margin-top: 5px;
+    text-align: center;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 20px;
+    color: #534C64;
+}
+
+.online-card-container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 15px;
+
+}
+
+.online-card-pic:hover { 
+  
+}
+
+.online-card-pic {
+    width: 220px;
+    height: 270px;
+    border-radius: 8px;
+
+}
+
+.online-card-des {
+    text-align: left;
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 19px;
+    color: #534C64;
 }
 
 /* play instantly starts here  */

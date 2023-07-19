@@ -27,13 +27,47 @@
         padding-left: 70px;
         width: 360px;
     }
+    .online-games{
+        margin: 400px 0px 20px 0px;
+        align-items: center;
+        justify-content: center;
+    }
+    .online-container {
+        width: 420px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-self: center;
+        margin: 10px 10px;
+        padding-left: 0px;
+        text-align: center;
+        margin: 0px 0px 50px 200px ;
+    }
+    .online-card-container {
+        grid-template-columns: 1fr;
+        margin: 0px 0px 10px 200px ;
+    }
+    .online-card-pic {
+        width: 350px;
+        height: 340px;
+    }
+
+
+
     .play-instantly{
         flex-direction: column; 
+        justify-content: center;
         align-items: center;
-        margin: 500px 0px 50px 150px;
+        margin: 0px 0px 50px 350px;
     }
     .play-info-container> .play-title, .play-des{
         text-align: center;
+    }
+    .play-info-container{
+        margin: 0px 0px 0px 160px;
+    }
+    .play-pic-container{
+        margin: 0px 0px 0px 200px;
     }
     .absolute {
         width: 140px;
@@ -47,23 +81,10 @@
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
     footer{
         margin-top: 700px;
         margin-left: 0px;
-        width: 477px;
+        width: 670px;
     }
     .footer-content, .social-icons {
         display: grid;
