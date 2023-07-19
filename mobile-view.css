@@ -1,6 +1,6 @@
 @media screen and (min-width: 425px) and (max-width: 426px) {
     header {
-        margin: 100px 120px 50px 300px;
+        margin: 50px 100px 50px 120px;
     }
     nav, .nav-container {
         flex-direction: column;
@@ -18,10 +18,49 @@
         /* margin: 100px 120px 50px 0px; */
     }
     .goat-pic-container { 
-        margin: 150px 45px 50px 0px;
+        margin: 150px 40px 50px 45px;
     }
     .goat-pic {
         width: 360px;
-
     }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+    footer{
+        margin-top: 700px;
+        margin-left: 0px;
+        width: 477px;
+    }
+    .footer-content, .social-icons {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+    }
+    .policy {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 20px;
+    }
+    .copy-right {
+        text-align: center;
+        text-size-adjust: 80%;
+        width: 160px;
+        height: 30px;
+        display: grid;
+        grid-template-rows: 1fr;
+    }
+    
 }
